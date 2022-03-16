@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmica</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Você pode usar imagens dinâmicas em seu site para dar um visual diferente.</p>
+    <h2>como criar imagens dinãmicas e para que servem?</h2>
+    <p>As <strong><mark>imagens dinâmicas</mark></strong> servem para se enquadrarem em diferente tamanhos de dispositivo que o seu site for acessado. Ex. se o seu site for acessado por um smartfone, ela vai se encaixar na tela do smartfone. Se for acessado por um computador ou por uma tv ela (imagem dinâmicas) se encaxará na tela na qual ela for acessada</p>
+    <p>para criar uma imagem dinâmica, tem de se seguir os seguintes passos:
+        <ol>
+            <li>usar a tag <strong>picture</strong> e dar um enter</li>
+            <li>usar a tag <strong>imag</strong> e selecionar a maior imagem ( que deve ter um tamnho de <strong>1050px</strong>)</li>
+            <li>dentro da tag <strong>imag</strong> tem a tag <strong>alt</strong>. dentro desta tag preencha com <q>imagem flexivel</q></li>
+            <li>usar a tag <strong>source media type</strong> e preencher com max: para o primeiron source deve ter o temanho de 1050px e o segundo 750px</li>
+        </ol>
+    </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/foto-a.png" type="image/png">
+        <img src="imagens/foto-n.png" alt="imagem flexivel">
+    </picture>
+    <audio src="audio/xxxt - Huh ft. Trippie Redd, Juice WRLD, 6ix9ine & Ski Mask (Music Video).mp3" controls autoplay></audio>
+    <h2>Como criar áudio no site</h2>
+    <P>Para criar audio numa pagina, tem de se usar a tag <strong>audio</strong> e em seguida colocar o endereço na tag. por fim deve se criar no final da tag <strong>audio</strong> a tag <strong>Control</strong> e a tag <strong>autoplay</strong> abaixo está o exemplo:</P>
+    <audio src="audio/Truck_Driving.mp3" controls autoplay></audio>
+
+    
+</body>
+</html>

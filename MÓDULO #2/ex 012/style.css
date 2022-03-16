@@ -1,0 +1,117 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(119, 136, 153, 0.507);
+    margin: 0;
+}
+header{
+    background-color: rgba(255, 255, 255, 0.863);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px 10px 16px 15px;
+    box-shadow: 1px 1px 2px black;
+    
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.377);
+    padding: 3px;
+    margin: 0;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.432);
+    
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    margin-right: 10px;
+}
+nav > a :hover{
+    border-bottom: 2px solid #2A7342;;
+
+}
+.navega{    
+    padding: 5px;
+}
+.navega :hover{
+    border-bottom: 4px solid #272727;;
+    color: black;
+}
+#assuntos :hover{
+    color: black;
+    border-bottom: 4px solid #272727;;   
+}
+#assuntos{
+    color: black;
+    padding: 5px;
+    text-align: center;
+}
+section{
+    background-color: (255, 255, 255, 0.863);
+    margin: 0;
+}
+section > a{
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+}
+main{
+    background-color: rgba(255, 255, 255, 0.863);
+    padding: 10px;
+    margin: 5px;
+    font-weight: bold;
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 10px 10px 16px 15px ;
+    box-shadow: 1px 2px 2px black;
+}
+article{
+    background-color: rgba(70, 70, 70, 0.247);
+}
+article > aside{
+    background-color: rgba(70, 70, 70, 0.247);
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+}
+footer > p{
+    margin: 0;
+}
+div#novo{
+   
+    height: 260px;
+    background-color: #e0dfdf;
+    margin: 5px;
+}
+div#quadros-1{
+    background-color: aquamarine;
+    border: 4px solid #45C4B0;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 5px;
+}
+div#quadros-2{
+    background-color: aquamarine;
+    border: 4px solid #45C4B0;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 5px;
+}
+div#quadros-3{
+    background-color: aquamarine;
+    border: 4px solid #45C4B0;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+}
+.quadro{
+    text-align: center;
+}
+

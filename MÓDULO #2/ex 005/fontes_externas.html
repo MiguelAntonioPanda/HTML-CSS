@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+      @font-face {
+          font-family: 'Starjhol';
+          src: url(Starjedi.ttf), url(Mistic-Regular.ttf);
+          font-weight: bold;
+          font-style: normal;
+      }
+      main{
+          box-shadow: 2px 2px 5px  #f8fff8;
+          background-color: #235058;
+          width: 480px;
+          margin: auto;
+          padding: 15px;
+          border-radius: 15px;
+      }
+      body{
+        background-color: #088ea8;    
+      }
+      h1{
+          font-family: 'Starjhol';
+          padding: 20px;
+          box-shadow: 1px 1px 15px  #088ea8;
+          border-radius: 15px;
+          color: #f8fff8;
+          animation: forwards;
+          text-decoration: underline;
+      }
+      h2{
+        font-family: 'Mistic-Regular;
+        padding: 20px;
+        box-shadow: 1px 0px 15px  #088ea8;
+        border-radius: 15px;
+        color: #f8fff8; 
+        text-decoration: underline;   
+      }
+      p{
+        color: #6edbdb;
+      }
+      ul li{
+        color: #6edbdb;
+      }
+      menu{
+          width: 60PX;
+          background-color: #f8fff8;
+         margin: auto;
+      }
+      barra-menu{
+          width: 100%;
+          height: 50px;
+          color: #f8fff8;
+      }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li>
+                <a href="">HOME</a>
+            </li>
+            <li>
+                <a href="">PRODUCTOS</a>
+            </li>
+            <li>
+                <a href="">CONTACTOS</a>
+            </li>
+            <li>
+                <a href="">SOBRE NÓS</a>
+            </li>
+        </ul>
+    </div>
+    <div class="barra-menu">
+        <img src="" alt="">
+
+    </div>
+    <main>
+        
+        <h1>Capítulo 1</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod veniam provident nam fuga sit, debitis alias earum adipisci autem, nihil ipsa blanditiis, consequuntur soluta. Blanditiis quod inventore neque hic accusamus?</p>
+        <h2>Subcapítulo</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae architecto eius, ipsa soluta optio molestiae. Reiciendis ipsa voluptas dolorem, velit molestias expedita perferendis, vel voluptatibus quod autem facilis architecto minus.</p>
+        <h1>Como adicionar fonte externa em css</h1>
+        <p>Para adicionar fonte externa em css deve-se seguir os seguintes passos:</p>
+        <ul>
+            <li>Usar a tag @font-face</li>
+            <li>Na tag URL deve ser preenchida com a fonte pretendida</li>
+            <li>Dar uma font-weight</li>
+            <li>Dar uma font-style</li>
+        </ul>   
+    </main>
+</body>
+</html>

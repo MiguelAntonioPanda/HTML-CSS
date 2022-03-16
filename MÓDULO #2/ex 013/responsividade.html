@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsividade em CSS</title>
+</head>
+<style>
+    body{
+        background-color: lightslategray;
+    }
+    main{
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+
+        /* ESTAS TAGS ABAIXO SERVEM PARA DAR RESPOSIVIDADE AO SITE. OU SERVEM PARA ADAPTAR O TEXTO A QUALQUER TAMANHO DE TELA DO DISPOSITIVO EM QUE ESTIVER A SER VIZUALIZADO. */
+
+        margin: auto;
+        min-width: 380px;
+        max-width: 800px;
+    }
+    img{
+        width: 100%;
+        border-radius: 10px;
+    }
+
+</style>
+<body>
+    <main>
+        <h1>Responsividade em HTML e CSS</h1>
+        <h2>Observe o exemplo abaixo</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime fuga dicta tempora nemo? Enim, modi. Harum blanditiis officia placeat deleniti esse! Deleniti ut officia earum ad repellat adipisci alias accusamus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptatem cum aperiam minima sed, quam ducimus iusto quis suscipit ipsa commodi. Perspiciatis incidunt est qui voluptatem itaque in aperiam labore.
+        </p>
+        <!--A TAG PICTURE COMBINADO COM A TAG SOURCE, SERVEM PARA VARIAR OS TAMANHOS DA S IMAGENS COM DIFERENTES TAMANHOS. PARA FAZE-LO, HÁ QUE SECRIAR IMAGENS IGUAIS COM TAMANHOS DIFERENTES-->
+        
+        <picture>
+            <source media="(max-width: 800px)" srcset="img/irina-blok-pq.jpg">
+            <img src="img/irina-blok.jpg" alt="">
+        </picture>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime fuga dicta tempora nemo? Enim, modi. Harum blanditiis officia placeat deleniti esse! Deleniti ut officia earum ad repellat adipisci alias accusamus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptatem cum aperiam minima sed, quam ducimus iusto quis suscipit ipsa commodi. Perspiciatis incidunt est qui voluptatem itaque in aperiam labore.</p>
+
+    </main>
+    
+</body>
+</html>

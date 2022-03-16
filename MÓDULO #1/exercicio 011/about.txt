@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Maven Pro
+- Font Author: Copyright 2011 The Maven Pro Project Authors (http://www.vissol.co.uk/mavenpro/), with Reserved Font Name "Maven Pro".
+- Font Source: http://fonts.gstatic.com/s/mavenpro/v25/7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8SX25nCpozp5GvU.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
